@@ -1,0 +1,35 @@
+.table_policy .td_policy{
+    border: 1px solid #C1C1C1;
+    }
+  
+    .td_policy{
+      text-align: left;
+      font-size: large;
+      padding-top: 20px;
+      /* padding-bottom: 20px; */
+      padding-left: 30px;
+      font-family: Helvetica;
+      color:  #094372!important;
+      font-weight: bold;
+    }
+    
+    .privacy_content{
+    color: black;
+    font-weight: normal;
+    }
+    
+    .table_policy {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top:300px;
+      /* margin-left:350px  */
+    }
+
+    @media screen and (max-width: 600px) {
+      .table_policy {
+        margin-top:500px;
+      }
+  }
+    
+    
+    

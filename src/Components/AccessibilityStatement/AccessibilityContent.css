@@ -1,0 +1,25 @@
+.table_ac{
+    border-color: white;
+    position: relative;
+    margin-top:200px;
+    width:80%
+}
+
+.td_ac{
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    width:50%;
+    height: 100%;
+   
+}
+
+.table_ac .td_ac{
+    border:none;
+}
+
+@media screen and (max-width: 600px) {
+    .td_ac {
+      font-size: 10px;
+    }
+}

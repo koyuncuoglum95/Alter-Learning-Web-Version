@@ -1,0 +1,16 @@
+
+.game_not_found_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 8rem;
+}
+.game_not_found_box img {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.game_not_found_box h3 {
+  color: #2e5894;
+  margin-bottom: 2rem;
+}

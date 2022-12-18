@@ -1,0 +1,35 @@
+
+*{
+    color: #2e5894;
+  }
+  .main_signin_container {
+    margin-top: 5rem;
+  }
+.teacher_register_txt{
+    text-align: left;
+}
+.details_text{
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.agree_txt{
+    font-size: 12px;
+    margin-left: 0px;
+}
+.checkBox{
+    margin-left: -48%;
+    margin-right: -200%;
+    height: 20px;
+
+}
+
+@media (max-width: 1200px){
+.left_side{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.right_side{
+width: 100%;
+}
+}

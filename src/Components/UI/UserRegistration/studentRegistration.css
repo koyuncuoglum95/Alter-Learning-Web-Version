@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #2e5894;
+}
+.student-registation {
+  width: 100%;
+  margin: 0;
+}
+.student-registation .row {
+  width: 100%;
+  margin: 0;
+}
+.font-icon {
+  font-size: large;
+  margin-right: 10px;
+}
+.text-col {
+  margin-left: 50px;
+}
+input::placeholder {
+  padding-left: 10px;
+}
+.img-col img {
+  object-fit: cover;
+  margin-left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .text-col {
+    margin-left: 0;
+  }
+}

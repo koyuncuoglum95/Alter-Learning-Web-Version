@@ -1,0 +1,35 @@
+.heading_pp {
+  position:absolute;
+  top: 18%;
+  width:100%;
+  /* left:0px; */
+  margin-left: 12%;
+  font-size: 80px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:  #094372!important;
+  text-align: left;
+}
+
+.text_pp{
+  position:absolute;
+  top: 15%;
+  margin-left: 12%;
+  width:100%;
+  /* left:0px; */
+  font-size: 15px;
+  color:  #094372!important;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .heading_pp {
+    font-size: 50px;
+    top:30%
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text_pp{
+    top: 25%;
+  }
+}

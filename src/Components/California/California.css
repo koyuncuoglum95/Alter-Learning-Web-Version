@@ -1,0 +1,35 @@
+.table_cpp .td_cpp{
+    border: 1px solid #C1C1C1;
+    }
+  .td_cpp{
+      text-align: left;
+      font-size: large;
+      padding-top: 10px;
+      /* padding-bottom: 0px; */
+      padding-left: 30px;
+      font-family: Helvetica;
+      color: #094372!important;
+      font-weight: bold;
+  }
+  
+  .content{
+    color: black;
+    font-weight: normal;
+  }
+   
+  .table_cpp {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top:150px;
+      /* margin-left:350px  */
+    }
+  
+  
+    @media screen and (max-width: 600px) {
+      .table_cpp {
+        margin-top:100px;
+      }
+  }
+  
+  
+  

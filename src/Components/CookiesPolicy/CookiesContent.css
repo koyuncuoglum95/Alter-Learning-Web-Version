@@ -1,0 +1,29 @@
+.table_cookies{
+    border-color: white;
+    position: relative;
+    top: 220px;
+    width:80%;
+}
+
+.td_cookies{
+    padding-right: 20px;
+    padding-left: 20px;
+    width:50%;
+
+}
+
+.table_cookies .td_cookies{
+    border:none;
+}
+
+.para_cookies{
+    font-size: 15px;
+}
+
+.global_link {
+    color: #2e5894 !important;
+    text-decoration: none;
+}
+.global_link:hover {
+    text-decoration: underline !important;
+}

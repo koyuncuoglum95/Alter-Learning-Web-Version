@@ -1,0 +1,482 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Navbar logo styles */
+.v49_1328 {
+  width: 70px;
+  height: 40px;
+  background: url("../logo/v49_1328.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 114px;
+  overflow: hidden;
+}
+.v49_1328:hover {
+  cursor: pointer !important;
+}
+.v49_1130 {
+  width: 69px;
+  height: 69px;
+  background: url("../logo/v49_1130.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 44px;
+  overflow: hidden;
+}
+.v49_1130:hover {
+  cursor: pointer;
+}
+
+/* navbar style start  */
+.main-nav {
+  width: 100%;
+  height: 7.5rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  transition: all 0.5s linear;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+.menu-link ul,
+.social-media ul {
+  height: 8.5rem;
+}
+.menu-link {
+  grid-column: 3/4;
+}
+.menu-link ul {
+  height: 8.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-media {
+  grid-column: 4/5;
+}
+.social-media ul {
+  height: 8.5rem;
+  display: grid;
+  grid-template-columns: 3fr repeat(3, 1fr);
+  align-items: center;
+  justify-content: flex-end;
+}
+.social-media ul li {
+  text-align: right;
+}
+.social-media ul li:first-child {
+  grid-column: 2/3;
+}
+.menu-link ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.menu-link ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  align-content: center;
+}
+
+/* Navbar link hover and active underline */
+.menu-link ul li a {
+  position: relative;
+  width: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2e5894;
+  text-decoration: none;
+}
+.menu-link ul li .icons {
+  position: relative;
+  width: 25.02px;
+  left: 8.34%;
+  right: 8.34%;
+  top: 8.33%;
+  bottom: 8.34%;
+  color: #003366;
+  font-size: 3rem;
+}
+.menu-link ul li:hover .icons {
+  color: #003366;
+  font-weight: 800;
+}
+.menu-link ul li a:hover {
+  color: #003366;
+  font-weight: 600;
+}
+.menu-link ul li a:after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  background: #003366;
+  border-radius: 2px;
+  z-index: 50000;
+}
+.menu-link ul li a.active:after {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.menu-link ul li a.active {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #003366;
+}
+
+/* custom log styles */
+.login_section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 18px;
+}
+.login_section li {
+  padding: 15px;
+}
+.login_section li a {
+  position: relative;
+  width: 104px;
+  height: 48px;
+  right: 20px;
+  bottom: 13px;
+  background: #FFF;
+  border: 2px solid #2e5894;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2e5894;
+}
+.login_section li a:hover {
+  transform-origin: left;
+  color: #003366;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.login_section li a.active {
+  color: #003366;
+  font-weight: 900;
+}
+.social-media .hamburger-menu {
+  display: none;
+}
+.linkIcons {
+  margin-right: 10px;
+}
+#hamburger_menu_icon {
+  color: #003366;
+}
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 7.9rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+  .menu-link ul,
+  .social-media ul {
+    height: 10rem;
+  }
+  .menu-link ul li {
+    font-size: 1.3rem;
+  }
+  .login_section {
+    margin-top: 18px;
+  }
+  .login_section li a {
+    right: -1px;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 8.3rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+  .menu-link {
+    display: none;
+  }
+  .social-media ul {
+    height: 8.5rem;
+  }
+  .mobile-menu-link {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+  .mobile-menu-link {
+    background-color: white;
+    height: 22rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 1px;
+    transition: all 0.5s linear;
+    transform-origin: top;
+    margin-top: -1px;
+  }
+  .mobile-menu-link ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10px;
+  }
+  .mobile-menu-link ul li {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .menu-link ul li a:after {
+    height: 2px;
+  }
+  .mobile-menu-link ul li a {
+    margin-left: 1px;
+  }
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
+  }
+  .social-media {
+    grid-row: 1/2;
+    grid-column: 3/5;
+    justify-items: end;
+    align-items: center;
+    transition: all 2s linear;
+    margin-top: 15px;
+  }
+  .social-media .social-media-desktop {
+    height: 0;
+    display: none;
+  }
+  .social-media {
+    height: 7rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+  .social-media .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .hamburger-menu {
+    margin-bottom: 10px;
+  }
+  .login_section {
+    margin-top: 20px;
+  }
+  .linkIcons .icons {
+    margin-bottom: 10px;
+  }
+  .menu-link ul li a {
+    font-size: 14px;
+  }
+  .menu-link ul li .icons {
+    width: 22.02px;
+  }
+  .menu-link ul li a.active {
+    font-size: 15px;
+  }
+}
+@media (max-width: 820px) {
+  .main-nav {
+    height: 8.3rem !important;
+  }
+}
+@media (max-width: 798px) {
+  .main-nav {
+    height: 8.3rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+  .mobile-menu-link {
+    min-height: 22rem;
+    margin-top: -1px;
+  }
+  .social-media .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .v49_1130 {
+    width: 50px;
+    height: 60px;
+    background: url("../logo/v49_1130.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 5px;
+    left: 44px;
+    overflow: hidden;
+  }
+  .v49_1328 {
+    width: 70px;
+    height: 40px;
+    background: url("../logo/v49_1328.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    left: 114px;
+    overflow: hidden;
+  }
+  .login_section li a {
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .hamburger-menu {
+    margin-bottom: 30px;
+  }
+  .login_section {
+    margin-top: -1px;
+  }
+}
+@media (max-width: 520px) {
+  .menu-link {
+    display: none;
+  }
+  .mobile-menu-link {
+    background-color: white;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: -1px;
+    transition: all 0.5s linear;
+    transform-origin: top;
+    margin-top: -1px;
+  }
+  .main-nav {
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+  }
+  .login_section li a {
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .hamburger-menu {
+    margin-bottom: 5px;
+  }
+  .login_section {
+    margin-top: 25px;
+  }
+  .login_section li a {
+    right: -1px;
+  }
+  .social-media .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .v49_1130 {
+    width: 35px;
+    height: 45px;
+    background: url("../logo/v49_1130.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    overflow: hidden;
+  }
+  .v49_1328 {
+    width: 50px;
+    height: 30px;
+    background: url("../logo/v49_1328.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 33px;
+    left: 55px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 414px) {
+  .main-nav {
+    height: 8.3rem;
+  }
+  .hamburger-menu {
+    margin-bottom: 5px;
+  }
+  .login_section {
+    margin-top: 25px;
+  }
+  .menu-link ul li a {
+    font-size: 12px;
+  }
+  .menu-link ul li .icons {
+    width: 19.02px;
+  }
+  .menu-link ul li a.active {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .hamburger-menu {
+    margin-bottom: 5px;
+  }
+  .login_section {
+    margin-top: 25px;
+  }
+}

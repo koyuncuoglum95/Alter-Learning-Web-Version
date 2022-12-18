@@ -1,0 +1,35 @@
+.table_acc td{
+    border: 1px solid #C1C1C1;
+    }
+  .td_acc{
+      text-align: left;
+      font-size: large;
+      padding-top: 20px;
+      /* padding-bottom: 20px; */
+      padding-left: 30px;
+      font-family: Helvetica;
+      color: rgb(6, 6, 88);
+      font-weight: bold;
+  }
+  
+  .content{
+    color: black;
+    font-weight: normal;
+  }
+   
+  .table_acc {
+      width: 80%;
+      border-collapse: collapse;
+      margin-top:100px;
+    }
+  
+  
+    @media screen and (max-width: 600px) {
+      .table_acc {
+        margin-top:100px;
+      }
+  }
+  
+  
+  
+  

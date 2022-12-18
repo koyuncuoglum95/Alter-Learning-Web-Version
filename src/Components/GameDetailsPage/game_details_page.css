@@ -1,0 +1,580 @@
+.main_game_details_page_container {
+  width: 100%;
+  max-width: 1300px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.inner_game_details_page_container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.game_detail_install_text_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+.game_details_contents_box {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.game_details_title_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game_details_title_box h1 {
+  font-size: 4rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #2e5894;
+}
+.asidebar_iframe_box {
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.asidebar_iframe_box iframe {
+  width: 950px;
+  min-height: 75vh;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.game_detail_para_text_box {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 10px;
+}
+.game_detail_para_text_box h4 {
+  font-size: 1.8rem;
+  line-height: 25px;
+  color: black;
+}
+.take_me_to_itch_game_box {
+  margin-bottom: 12rem;
+}
+.take_me_to_itch_game_box a {
+  width: 313px;
+  height: 45px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #FFFFFF;
+  border: 2px solid #2e5894;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 1.7rem;
+  color: #2e5894;
+  cursor: pointer;
+}
+.take_me_to_itch_game_box a:hover {
+  color: #f08013 !important;
+  border: 2px solid #f08013;
+}
+.itch_iframe_game_box {
+  margin-bottom: 10px;
+}
+.itch_iframe_game_box h5 {
+  font-size: 2.5rem;
+  color: #2e5894;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.iframe_container {
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10rem;
+  margin: 0 auto;
+}
+.iframe_container iframe {
+  width: 950px;
+  min-height: 79vh;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.main_game_detail_install_box {
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 7rem;
+  padding-top: 20px;
+}
+.inner_game_detail_contents_install_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+.game_detail_install_title_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.game_detail_install_title_box h3 {
+  font-size: 2.2rem;
+  color: #2e5894;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.game_detail_install_text_box h5 {
+  text-align: 0;
+  font-size: 1.6rem;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.game_detail_install_text_box h5 span {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.game_detail_download_game_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download_title_box {
+  margin-bottom: 1rem;
+}
+.download_title_box h3 {
+  font-size: 2.2rem;
+  color: #2e5894;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.download_btn_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.custom_style_box {
+  margin-bottom: 30px;
+}
+.download_btn_box button {
+  width: 210px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFFFFF;
+  border: 2px solid #2e5894;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: #2e5894;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+.download_container span {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+.download_btn_box button:hover {
+  color: #f08013;
+  border: 2px solid #f08013;
+}
+.game_details_back_link_box {
+  width: 100%;
+  padding: 20px;
+}
+.inner_game_details_back_link_box {
+  display: flex;
+  justify-self: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+.inner_game_details_back_link_box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: #f08013;
+}
+.inner_game_details_back_link_box a:hover {
+  text-decoration: underline;
+}
+.back_link_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+.inner_game_details_back_link_box span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: #2e5894;
+}
+@media screen and (max-width: 1100px) {
+  .main_game_details_page_container {
+    width: 100%;
+    max-width: 1100px;
+  }
+  .inner_game_details_page_container {
+    max-width: 1000px;
+  }
+  .game_details_contents_box {
+    max-width: 1000px;
+  }
+  .game_details_title_box h1 {
+    margin-bottom: 10px;
+  }
+  .asidebar_iframe_box {
+    width: 100%;
+  }
+  .asidebar_iframe_box iframe {
+    width: 100%;
+  }
+  .game_detail_para_text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .iframe_container {
+    width: 100%;
+  }
+  .iframe_container iframe {
+    width: 100%;
+  }
+  .main_game_detail_install_box {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding-top: 20px;
+  }
+  .inner_game_detail_contents_install_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+  .game_detail_install_text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+  }
+  .game_detail_install_text_box h3 {
+    font-size: 2.7rem;
+    color: #2e5894;
+  }
+  .game_detail_download_game_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .download_title_box {
+    margin-bottom: 5px;
+  }
+  .download_title_box h3 {
+    font-size: 2.7rem;
+    color: #2e5894;
+  }
+  .download_btn_box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .custom_style_box {
+    margin-bottom: 20px;
+  }
+  .download_container span {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main_game_details_page_container {
+    width: 100%;
+    max-width: 1100px;
+  }
+  .inner_game_details_page_container {
+    max-width: 1000px;
+  }
+  .game_details_contents_box {
+    max-width: 1000px;
+  }
+  .game_details_title_box h1 {
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+  }
+  .asidebar_iframe_box {
+    width: 100%;
+  }
+  .asidebar_iframe_box iframe {
+    width: 100%;
+  }
+  .game_detail_para_text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .game_detail_para_text_box h4 {
+    font-size: 1.7rem;
+  }
+  .iframe_container {
+    width: 100%;
+  }
+  .iframe_container iframe {
+    width: 100%;
+  }
+  .main_game_detail_install_box {
+    width: 100%;
+  }
+  .game_detail_install_text_box h3 {
+    font-size: 2.5rem;
+  }
+  .download_title_box {
+    margin-bottom: 5px;
+  }
+  .download_title_box h3 {
+    font-size: 2.5rem;
+  }
+  .custom_style_box {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 758px) {
+  .inner_game_details_back_link_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .inner_game_details_back_link_box a {
+    font-size: 1.8rem;
+  }
+  .back_link_icons {
+    font-size: 1.8rem;
+  }
+  .inner_game_details_back_link_box span {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .main_game_details_page_container {
+    width: 100%;
+    max-width: 1100px;
+  }
+  .inner_game_details_page_container {
+    max-width: 1000px;
+  }
+  .game_details_contents_box {
+    max-width: 1000px;
+  }
+  .asidebar_iframe_box {
+    width: 100%;
+  }
+  .asidebar_iframe_box iframe {
+    width: 100%;
+    min-height: 65vh;
+  }
+  .game_detail_para_text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .game_detail_para_text_box h4 {
+    font-size: 1.5rem;
+  }
+  .take_me_to_itch_game_box a {
+    width: 270px;
+    font-size: 1.5rem;
+  }
+  .iframe_container {
+    width: 100%;
+  }
+  .iframe_container iframe {
+    min-height: 70vh;
+  }
+  .main_game_detail_install_box {
+    width: 100%;
+  }
+  .game_detail_install_text_box h3 {
+    font-size: 2.5rem;
+  }
+  .download_title_box {
+    margin-bottom: 5px;
+  }
+  .download_title_box h3 {
+    font-size: 2.5rem;
+  }
+  .custom_style_box {
+    margin-bottom: 10px;
+  }
+  .download_container span {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .inner_game_detail_contents_install_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .main_game_details_page_container {
+    width: 100%;
+    max-width: 1100px;
+  }
+  .inner_game_details_page_container {
+    max-width: 1000px;
+  }
+  .game_details_contents_box {
+    max-width: 1000px;
+  }
+  .game_details_title_box h1 {
+    font-size: 2.5rem;
+  }
+  .asidebar_iframe_box {
+    width: 100%;
+  }
+  .asidebar_iframe_box iframe {
+    width: 100%;
+    min-height: 60vh;
+  }
+  .game_detail_para_text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .take_me_to_itch_game_box a {
+    width: 90%;
+    font-size: 1.7rem;
+  }
+  .iframe_container {
+    width: 100%;
+  }
+  .iframe_container iframe {
+    width: 100%;
+    min-height: 67vh;
+  }
+  .main_game_detail_install_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .game_detail_install_text_box {
+    width: 100%;
+  }
+  .game_detail_install_text_box h3 {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .download_title_box {
+    margin-bottom: 5px;
+  }
+  .download_title_box h3 {
+    font-size: 2.8rem;
+  }
+  .download_btn_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .custom_style_box {
+    margin-bottom: 10px;
+  }
+  .download_btn_box button {
+    width: 90%;
+    height: 50px;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  .download_container span {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .inner_game_details_page_container {
+    padding: 2px;
+  }
+  .main_game_details_page_container {
+    padding: 2px;
+  }
+  .game_details_title_box h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  .asidebar_iframe_box {
+    width: 100%;
+  }
+  .asidebar_iframe_box iframe {
+    width: 100%;
+    min-height: 70vh;
+  }
+  .game_detail_para_text_box {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .game_detail_para_text_box h4 {
+    font-size: 1.5rem;
+  }
+  .take_me_to_itch_game_box a {
+    width: 80%;
+    font-size: 1.6rem;
+  }
+  .iframe_container {
+    width: 100%;
+  }
+  .iframe_container iframe {
+    width: 100%;
+    min-height: 70vh;
+  }
+  .main_game_detail_install_box {
+    width: 100%;
+  }
+  .game_detail_install_text_box h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .download_title_box {
+    margin-bottom: 5px;
+  }
+  .download_title_box h3 {
+    font-size: 2.5rem;
+  }
+  .download_btn_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custom_style_box {
+    margin-bottom: 30px;
+  }
+  .download_btn_box button {
+    width: 90%;
+    font-size: 2rem;
+  }
+  .download_container span {
+    font-size: 1.6rem;
+  }
+}

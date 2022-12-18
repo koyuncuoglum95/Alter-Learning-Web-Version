@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact-us {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+.contact-us .row {
+  margin: 0;
+}
+.left-col {
+  width: 70%;
+  background: white;
+  border-radius: 15px;
+  margin: 50px 0px 0px 110px;
+  padding: 15px;
+  text-align: left;
+  position: relative;
+}
+.contact-header {
+  margin: 10px;
+}
+.body-contact {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+}
+.form-control {
+  border: none;
+}
+label {
+  text-align: left;
+  width: 100%;
+  line-height: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+input {
+  height: 40px;
+  width: 100%;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid gray;
+}
+input:hover {
+  border: 2px solid orange;
+}
+input:focus {
+  outline: 2px solid orange;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+}
+textarea:hover {
+  border: 2px solid orange;
+}
+textarea:focus {
+  outline: 2px solid orange;
+}
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.emailButton {
+  border: 1px solid green;
+  color: green;
+  margin-left: 10px;
+  width: 120px;
+}
+.emailButton span {
+  margin-left: 10px;
+}
+.homeButton {
+  border: 1px solid red;
+  color: red;
+  margin-right: 10px;
+  width: 120px;
+}
+.homeButton span {
+  margin-left: 10px;
+}
+.errorMessage {
+  color: red;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.right-col {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.right-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 1200px) {
+  .right-col {
+    width: 100%;
+  }
+  .right-col img {
+    width: 100%;
+    height: 720px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .right-col {
+    width: 100%;
+  }
+  .right-col img {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 0;
+  }
+  .left-col {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .left-col {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .right-col img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 868px) {
+  .left-col {
+    height: auto;
+    margin-top: 10px;
+  }
+  .right-col {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .right-col img {
+    height: 600px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact-us .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-col {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+  .right-col {
+    margin-bottom: 0;
+  }
+  .right-col img {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-us .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left-col {
+    height: auto;
+  }
+  .right-col {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .right-col img {
+    width: 100%;
+    height: auto;
+  }
+}

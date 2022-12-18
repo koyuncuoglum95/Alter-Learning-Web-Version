@@ -1,0 +1,21 @@
+.table_privacy{
+  border-color: white;
+  position: relative;
+  top:220px;
+  width:80%
+}
+.td_privacy{
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  width:50%;
+  height: 100%;
+}
+.table_privacy .td_privacy{
+  border:none;
+}
+@media screen and (max-width: 600px) {
+  .td_privacy {
+    font-size: 10px;
+  }
+}

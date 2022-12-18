@@ -1,0 +1,35 @@
+.header_ap {
+    position:absolute;
+    top: 18%;
+    width:100%;
+    /* left:0px; */
+    margin-left: 11%;
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #094372!important;
+    text-align: left;
+  }
+  
+  .text_ap{
+    position:absolute;
+    top: 15%;
+    margin-left: 11%;
+    width:100%;
+    /* left:0px; */
+    font-size: 15px;
+    color: #094372!important;
+    text-align: left;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header_ap {
+      font-size: 50px;
+      top:30%
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .text_ap{
+      top: 25%;
+    }
+  }
