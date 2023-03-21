@@ -1,0 +1,16 @@
+.cardheader1, .cardheader2,.cardheader3,.cardheader4{
+    background-color: white;
+}
+
+.testcard{
+    top:50px; 
+}
+
+
+.image {
+        top: -62px;
+        position: relative;
+        
+}
+
+

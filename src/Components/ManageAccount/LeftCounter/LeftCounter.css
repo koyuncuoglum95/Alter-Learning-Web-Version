@@ -1,0 +1,75 @@
+.leftcards{
+    margin-right:0;
+}
+.account-settings{
+    margin-top: 20px;
+}
+.account-settings div{
+    border-top: 2px solid #C4C4C4;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.edit-title{
+    color: #C4C4C4
+}
+.edit-setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit-setting button{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 36px;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    color: #C4C4C4;
+}
+.table-icons{
+    size: 18px;
+};
+.photos-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .photos-container button{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 36px;
+    border-radius: 10px;
+} */
+.edit-button {
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 36px;
+    border-radius: 10px;
+    border: 2px solid #C4C4C4;
+    color: #C4C4C4;
+}
+.delete-button{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 36px;
+    border-radius: 10px;
+    border: 2px solid #AC2529;
+    color: #AC2529;
+}
+.add-button{
+    background-color: #FFFFFF;
+    width: 108px;
+    height: 36px;
+    border: 2px solid #61CA3C;
+    border-radius: 10px;
+    color: #61CA3C;
+}
+.redirect-button{
+    background-color: #FFFFFF;
+    width: auto;
+    height: 36px;
+    border: 2px solid #AC2529;
+    border-radius: 10px;
+    color: #AC2529;
+}

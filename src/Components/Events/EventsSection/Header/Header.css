@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.063rem;
+}
+
+.eventsSectionTitle{
+  font-size: 40px;
+  font-weight: 600;
+  color: #104E92;
+}
+
+.eventsSectionSearch{
+  display: flex;
+  gap: 1.313rem;
+  
+}
+
+form.eventsSectionSearch select{
+  font-size: 14px;
+  border-radius: 10px;
+  border-width: 3px;
+  padding: 2px 32px;
+  border-color: #61CA3C;
+  color: #61CA3C;
+}

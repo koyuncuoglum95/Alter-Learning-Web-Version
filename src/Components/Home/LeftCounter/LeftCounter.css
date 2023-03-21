@@ -1,0 +1,32 @@
+.test {
+    width:900px; height:360px;  
+}
+.testcard{
+    top:50px;
+    left:-150px;
+    height:430px;  
+}
+.alterlearningslider{
+    box-sizing: border-box;
+    position: absolute;
+    width: 880px;
+    height: 455px;
+    left: 72px;
+    top: 126px;
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-shadow: 2px 2px 3px rgba(196, 196, 196, 0.5);
+    border-radius: 20px; 
+}
+.testcarousel{
+    width:900px; height:360px;
+}
+
+.cardBody{
+     height:500px;
+}
+
+
+
+
+

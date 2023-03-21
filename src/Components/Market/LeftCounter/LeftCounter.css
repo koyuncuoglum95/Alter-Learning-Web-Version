@@ -1,0 +1,19 @@
+.test {
+    width:900px; height:360px;  
+}
+.testcard{
+    top:50px;
+    left:-150px;
+    height:430px;  
+}
+.cardBody{
+     height:500px;
+}
+
+
+.cardgame{
+    top:50px;
+    left:-150px;
+    height:200px;  
+}
+

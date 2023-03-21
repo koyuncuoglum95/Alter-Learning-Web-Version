@@ -1,0 +1,19 @@
+.testcard{
+    top:50px;
+    left:-150px;
+    height:430px;  
+}
+
+.cardBody{
+     height:500px;
+}
+.bookmark-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+

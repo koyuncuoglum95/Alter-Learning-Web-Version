@@ -1,0 +1,12 @@
+.secondLayer{
+  display: flex;
+  flex-direction: row;
+  gap: 74px;
+  margin-top: 54px;
+}
+
+header{
+  color: #f7f7f7;
+  margin-top: 75px;
+  margin-bottom: 54px;
+}

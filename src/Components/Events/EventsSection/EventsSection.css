@@ -1,0 +1,110 @@
+.contentContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 15fr);
+  gap: 57px;
+}
+
+.cardContainer{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: 3px solid #C4C4C4;
+}
+
+.cardFooter{
+  border-top: 3px solid #C4C4C4;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px 24px;
+}
+
+.cardFooter h3{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cardFooter span{
+  font-weight: 700;
+  color: #3D37F1;
+}
+
+.cardFooter h4{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cardFooter small{
+  color: #6A6A6A;
+  font-size: 14px;
+}
+
+.cardHeader{
+  padding-top: 12px;
+  padding-left: 35px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #C4C4C4;
+}
+
+.src1{
+  display: flex;
+  position: absolute;
+  color: white;
+  
+  transform: translateY(-100%);
+  background-color: #26242480;
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-right: 37px;
+  border-radius: 0px 10px 0px 0px;
+  gap: 45px;
+}
+
+.src2{
+  /* display: flex; */
+  position: absolute;
+  color: white;
+  transform: translateX(263%) translateY(-100%);
+  padding-left: 13px;
+  padding-right: 37px;
+}
+
+.srcWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.srcWrapper button{
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+
+.cardHeader button{
+  background-color: transparent;
+  color: #C4C4C4;
+  border: 0;
+}
+
+.cardHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonWrapper{
+  margin: 113px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadMoreButton{
+  border: 3px solid #61CA3C;
+  color: #61CA3C;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 4px 80px;
+  border-radius: 10px;
+}

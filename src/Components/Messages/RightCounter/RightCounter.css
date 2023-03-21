@@ -1,0 +1,28 @@
+.rightCards{
+    margin: auto;
+    margin-left: 540px;
+    /* margin-right: 100px; */
+    /* right: 100px; */
+    width: 15%;
+}
+
+.cardheader1, .cardheader2,.cardheader3{
+    background-color: white;
+}
+
+.testcard{
+    /* top:50px; */
+    border-radius: 8;
+}
+
+
+.image {
+    /* top: -62px; */
+    position: relative;
+}
+
+.image img{
+    border-radius: 18px;
+}
+
+

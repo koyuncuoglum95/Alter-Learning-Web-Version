@@ -1,0 +1,65 @@
+
+.bodyWrapper{
+  padding: 45px 25px; 
+}
+
+.titleWrapper{
+  display: flex;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 30px 20px 0 ;
+  flex-direction: column;
+  font-family: 'Poppins';
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.titleWrapper p{
+  font-size: 26px;
+  color: #454545;
+  text-align: center;
+  font-weight: 400;
+}
+
+.titleWrapper a{
+  font-size: 26px;
+  color: #7CBBF7;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.inputWrapper{
+  margin-top: 20px;
+}
+
+.inputWrapper input{
+  border: 0;
+}
+
+.gameCardsWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  margin-top: 35px;
+}
+
+.moreGames{
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.moreGames a{
+  text-decoration: none;
+  color: #73B6F7;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.libraryWrapper {
+  margin-left: -130.8rem;
+  margin-top: 100rem;
+}

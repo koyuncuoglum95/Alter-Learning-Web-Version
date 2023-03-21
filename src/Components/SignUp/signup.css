@@ -1,0 +1,531 @@
+*{
+    box-sizing: border-box;
+    font-family:'Poppins', san-serif;
+    
+   
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    padding:90px 0 90px 0;
+}   
+
+.container{
+    justify-content: center;
+    max-width: 400px; 
+    height:1300px;
+    width:100%;
+    padding:15px 20px;
+    border-radius:20px;
+    font-size:15px;
+    box-shadow:11px 12px 13px 12px rgb(207,207,207);
+}
+.container .title .sub-title{
+    font-weight: 500;
+    position: relative;
+}
+.title{
+    font-size:40px;
+}
+.sub-title{
+    font-size:20px;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:10px 0 10px 0;
+}
+form .user-details .input-box{
+    margin-bottom:15px;
+    width: calc(100% / 2 - 10px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom:5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width:100%;
+    outline: none;
+    border-radius:5px;
+    border:1px  solid #ccc;
+    padding-left:15px;
+    font-size:16px;
+    border-width:2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #9b59b6;
+}
+
+ .face_detect .left_face{
+    width:35px;
+    height:35px;
+    display: block;
+    position: absolute;
+    bottom:-7.5em;
+    left:49%;
+    border-radius:50%;
+    font-size:20px;
+    
+    
+}
+.face_detect .left_face:hover{
+   background-color: #4f9bff;
+}
+ .face_detect .right_face{
+    width:35px;
+    height:35px;
+    display: block;
+    position: absolute;
+    bottom:14vh;
+    left:49.5%;
+   border-radius: 50%;
+   font-size:20px;
+}
+.face_detect .right_face:hover{
+    background-color: #4f9bff;
+ }
+ .face_detect .front_face{
+    width:35px;
+    height:35px;
+    display: block;
+    position: absolute;
+    bottom:-20.5em;
+    left:51.2%;
+    border-radius:50%;
+    font-size:20px;
+}
+
+.face_detect .front_face:hover{
+    background-color: #4f9bff;
+ }
+.button{
+    position: absolute;
+    bottom:-45em;
+    left:38%;
+    height:45px;
+    width:25%;
+    outline: none;
+    background-color:cyan;
+    font-weight:500;
+    border:none;
+    border-radius:10px;
+    color:black;
+}
+.button:hover{
+    background-color: rgb(96, 209, 209);
+}
+.result{
+    position: absolute;
+    width:auto;
+    height:20%;
+    bottom:0;
+    top:60em;
+    left:40%;
+
+}
+
+
+.launch_left{
+    position: relative;
+    bottom:-13.5em;
+    left:40%;
+    border:none;
+    outline: none;
+    display: block;
+    border-radius: 6px;
+    background-color: #00a8ff;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight:800;
+    padding: 8px 16px;
+    font-size:20px;
+    transition: 0.3s linear;
+}
+.launch_left:hover{
+    transform:rotateY(15deg);
+    box-shadow: -10px 0 10px #1582b8;
+}
+.launch_right{
+    position: relative;
+    left:40%;
+    bottom:3em;
+    border:none;
+    outline: none;
+    display: block;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #000;
+    padding: 8px 16px;
+    background-color: #00a8ff;
+    font-weight:800;
+    font-size:20px;
+    transition: 0.3s linear;
+}
+.launch_right:hover{
+    transform:rotateY(-15deg);
+    box-shadow: 10px 0 10px #1582b8;
+}
+.launch_front{
+    position: relative;
+    bottom:-24em;
+    left:40%;
+    border:none;
+    outline: none;
+    display: block;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #000;
+    background-color: #00a8ff;
+    font-weight:800;
+    padding: 8px 16px;
+    font-size:20px;
+    transition: 0.3s linear;
+}
+.launch_front:hover{
+    transform: rotateX(15deg);
+    box-shadow: 0 10px 10px #00a8ff;
+}
+.retake{
+    position: absolute;
+    top:64em;
+    left:52%;
+    height:max-content;
+    border:none;
+    outline:none;
+    appearance: none;
+    padding: 8px 16px;
+    background-image: linear-gradient(to right, #844FFF 50%, #FF4F84 50%);
+    background-position: 0%;
+    background-size: 200%;
+    color:#FFF;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor:pointer;
+    
+}
+
+.retake:hover{
+    background-position: 100%;
+}
+
+#recap{
+    position: absolute;
+    left:52%;
+    top:79.5em;
+    height:max-content;
+    border:none;
+    outline:none;
+    appearance: none;
+    padding: 8px 16px;
+    background-image: linear-gradient(to right, #844FFF 50%, #FF4F84 50%);
+    background-position: 0%;
+    background-size: 200%;
+    color:#FFF;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor:pointer;
+    
+}
+
+#recap:hover{
+    background-position: 100%;
+}
+.recapture{
+    position: absolute;
+    left:52%;
+    top:46em;
+    height: max-content;
+    border:none;
+    outline:none;
+    appearance: none;
+    padding: 8px 16px;
+    background-image: linear-gradient(to right, #844FFF 50%, #FF4F84 50%);
+    background-position: 0%;
+    background-size: 200%;
+    color:#FFF;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor:pointer;
+}
+.recapture:hover{
+    background-position: 100%;
+}
+
+
+.hide{
+    border: none;
+    font-size:25px;
+    position: absolute;
+    background:none;
+    bottom:0;
+    top:6.8em;
+   color:red;
+    left:60%;
+}
+.hide:hover{
+    color:mediumblue;
+}
+#result{
+    position: absolute;
+    width:auto;
+    height:20%;
+    bottom:-38em;
+    left:40%;
+
+}
+.finals{
+    position: absolute;
+    width:auto;
+    height:20%;
+    bottom:-5.5em;
+    left:40%;
+}
+video{
+    width:40%;
+    position: absolute;
+    bottom:12em;
+    left:25%;
+    height:40%;
+}
+
+        /* responsive  */
+/* Styles for screens smaller than 600px */
+@media screen and (max-width:500px){
+
+    .launch_right{
+        
+        left:20%;
+        bottom:4em;
+    }
+    .launch_front{
+        position: relative;
+        left:20%;
+        bottom:0;
+        top:19em;
+    }
+    .launch_left{
+        position: relative;
+        bottom:0;   
+        top:11.3em;
+        left:20%;
+    }
+    video{
+        position: absolute;
+        width:40%;
+        height:40%;
+        bottom:-4em;
+        left:30%;
+    }
+    .hide{
+        position: absolute;
+        bottom:0;
+        top:14.5em;
+        left:60%;
+    }
+    .right_face{
+        position: absolute;
+        top:28em;
+    }
+    .finals{
+        position: absolute;
+        bottom:0;
+        top:43.2em;
+        left:20%;
+    }
+    .recapture{
+        position: absolute;
+        
+        left:55%;
+    }
+    .left_face{
+        position: absolute;
+        bottom:0;
+        top:40em;
+    }
+    .result{
+        position: absolute;
+        bottom:0;
+        top:57em;
+        left:20%;
+    }
+    .retake{
+        position: absolute;
+        bottom:0;
+        top:59em;
+        left:55%;
+    }
+    .button{
+        position: absolute;
+        bottom:0;
+        top:90em;
+    }
+    .front_face{
+        position: absolute;
+        bottom:0;
+        top:24em;
+        
+    }
+    #result{
+        position: absolute;
+        bottom:0;
+        top:70em;
+        left:20%;
+    }
+    #recap{
+        position: absolute;
+        bottom:0;
+        top:72em;
+        left:55%;
+    }
+}
+/* Styles for screens between 500px and 900px */
+@media screen and (min-width:501px) and (max-width:900px) {
+    .button{
+        position: absolute;
+        bottom:0;
+        top:90em;
+    }
+    .finals{
+        position: absolute;
+        bottom:0;
+        top:45em;
+    }
+    .recapture{
+        position:absolute;
+        left:55%;
+        bottom:0;
+        top:47.5em;
+    }
+    #result{
+        position: absolute;
+        bottom:0;
+        top:73em;
+    }
+    .retake{
+        position: absolute;
+        left:55%;
+        bottom:0;
+        top:62em;
+    }
+    #recap{
+        position: absolute;
+        bottom:0;
+        left:55%;
+        top:75em;
+    }
+    .launch_front{
+        position: relative;
+        bottom:-21em;
+    }
+    video{
+        position: absolute;
+        width:40%;
+        height:40%;
+        bottom:2em;
+        left:30%;
+    }
+    .hide{
+        position: absolute;
+        bottom:0;
+        top:4em;
+        left:65%;
+    }
+    .right_face{
+        position: absolute;
+        top:28em;
+    }
+    .left_face{
+        position: absolute;
+        bottom:0;
+        top:40em;
+    }
+    .front_face{
+        position: absolute;
+        bottom:0;
+        top:24em;
+        
+    }
+}
+/* Styles for screens larger than 900px */
+@media screen and (min-width: 901px){
+    .button{
+        position: absolute;
+        bottom:0;
+        top:90em;
+    }
+    .right_face{
+        position: absolute;
+        top:28em;
+    }
+    .left_face{
+        position: absolute;
+        bottom:0;
+        top:42em;
+    }
+    .front_face{
+        position: absolute;
+        bottom:0;
+        top:24em;
+        
+    }
+    video{
+        position: absolute;
+        width:320px;
+        height:420px;
+        top:15em;
+        left:45%;
+    }
+    .hide{
+        position: absolute;
+        bottom:2em;
+       right:16em;
+    }
+    .finals{
+        position: absolute;
+        bottom:0;
+        top:44em;
+       width:150px;
+       height:150px;
+    }
+    .recapture{
+        position:absolute;
+        left:55%;
+        bottom:0;
+        top:47.5em;
+    }
+    #result{
+        position: absolute;
+        bottom:0;
+        top:77em;
+        width:150px;
+       height:150px;
+    }
+    .retake{
+        position: absolute;
+        left:55%;
+        bottom:0;
+        top:63em;
+    }
+    #recap{
+        position: absolute;
+        bottom:0;
+        left:55%;
+        top:79.8em;
+    }
+    .result{
+        width:150px;
+        height:150px;
+    }
+}

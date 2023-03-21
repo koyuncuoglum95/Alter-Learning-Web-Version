@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', san-serif;
+  
+}
+.header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 85vh;
+   background:#fff;
+
+
+}
+.box{
+    position: relative;
+    width:380px;
+    height:420px;
+    background:#fff;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:11px 12px 13px 12px rgb(207,207,207);
+
+}
+.box::before{
+    content:'';
+    position: absolute;
+    top:-50%;
+    left:-50%;
+    width:380px;
+    height:420px;
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    
+
+}
+.box::after{
+    content:'';
+    position: absolute;
+    top:-50%;
+    left:-50%;
+    width:380px;
+    height:420px;
+    background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+    
+
+}
+@keyframes animate 
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.form{
+    position: absolute;
+    inset: 2px;
+    border-radius:10px;
+    background:#fff;
+    z-index:10;
+    padding:50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.form .tlt{
+    color:black;
+    font-size:30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.form .sub-tlt{
+    color:black;
+    font-size:17px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.form form .users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px 0 20px 0;
+   
+}
+
+form .users .inp-box{
+    margin-bottom:15px;
+    
+}
+.users .inp-box .detail{
+    display: block;
+    font-weight: 500;
+    margin-bottom:5px;
+}
+.users .inp-box input{
+    height: 45px;
+    width:100%;
+    outline: none;
+    border-radius:5px;
+    border:1px  solid #ccc;
+    padding-left:15px;
+    font-size:16px;
+    border-width:2px;
+    transition: all 0.3s ease;
+}
+.users .inp-box input:focus,
+.users .inp-box input:valid{
+    border-color: #9b59b6;
+}
+form .btn{
+    position:absolute;
+    left:40%;
+    height:45px;
+    width:25%;
+   outline: none;
+    background-color:cyan;
+    font-weight:500;
+    border:none;
+    border-radius:10px;
+    color:black;
+}
+form .btn:hover{
+    background-color: rgb(96, 209, 209);
+}

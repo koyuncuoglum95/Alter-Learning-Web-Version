@@ -1,0 +1,94 @@
+.gameCardWrapper{
+  border-bottom: 2px solid #C4C4C4;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins';
+
+}
+
+.gameCardContent{
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.gameCardContent h1{
+  font-size: 24px;
+  color: #73B6F7;
+  font-weight: 600;
+}
+
+.gameCardContent p{
+  font-size: 18px;
+  color: #454545
+}
+
+.gameCardContent span{
+  font-size: 18px;
+  color: #C4C4C4;
+}
+
+.prices{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.srcWrapper span{
+  font-weight: 800;
+  font-size: 24px;
+}
+
+
+.srcWrapper span.oldPrice{
+  color: #C4C4C4;
+}
+
+.srcWrapper span.newPrice{
+  color: #61CA3C;
+}
+
+.srcButtons span{
+  color: #C4C4C4;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.likesButton{
+  color: #C4C4C4;
+}
+
+.srcButtons{
+  display: flex;
+  gap: 22px;
+  margin-left: 15px;
+}
+
+.categoriesWrapper{
+  display: flex;
+}
+
+
+.likesButton button{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #C4C4C4;
+  padding: 20px 24px;
+  border-radius: 10px;
+}
+
+.addCartButton button{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #61CA3C;
+  padding: 20px 24px;
+  border-radius: 10px;
+}
+
+.addCartButton span{
+  color: #61ca3c;
+}

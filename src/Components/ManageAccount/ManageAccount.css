@@ -1,0 +1,10 @@
+.main-container{
+    background-color: #E8E8E8;
+}
+
+.content{
+    display: grid;
+    /* gap:1rem; */
+    gap: 0;
+    grid-auto-flow: column;
+  }

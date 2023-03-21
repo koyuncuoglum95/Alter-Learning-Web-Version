@@ -1,0 +1,14 @@
+/* .rightCards{
+    margin-left: 0;
+    width: 15%;
+} */
+.rightCards{
+    margin: auto;
+    margin-left: 540px;
+    /* margin-right: 100px; */
+    /* right: 100px; */
+    width: 15%;
+}
+.testcards{
+    margin-left: 0;
+}

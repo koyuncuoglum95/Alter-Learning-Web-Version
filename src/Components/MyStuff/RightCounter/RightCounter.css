@@ -1,0 +1,23 @@
+.cardheader1, .cardheader2,.cardheader3,.cardheader4,.cardheader5,.cardheader6{
+    background-color: white;
+}
+
+.testcard{
+    top:50px; 
+}
+
+.image {
+        top: -62px;
+        position: relative
+}
+
+.image img{
+    border-radius: 18px;
+}
+
+.room-container{
+    margin-bottom: 20px;
+}
+
+
+

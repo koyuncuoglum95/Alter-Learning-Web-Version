@@ -1,0 +1,55 @@
+.leftCards{
+    width: 220%;
+}
+
+.testcard{
+    /* margin-left: 10%; */
+    border-radius: 8;
+    height: 40%;
+    background-color: white;
+}
+
+.cardBody{
+     height:500px;
+}
+
+.paragraph{
+    height: 1px;
+}
+
+.messages_inner_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.friends-messages{
+    border-top: 2px solid #C4C4C4;
+    /* border-right: 2px solid #C4C4C4; */
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 18px;
+}
+.search-engine{
+    margin-left: 10%;
+    width: 130px;
+    font-size: larger;
+    color: #C4C4C4;
+}
+.search-icons{
+    font-size: 17px;
+    color: #C4C4C4;
+}
+.main-chat{
+    /* background-color: aqua; */
+    border-top: 2px solid #C4C4C4;
+    border-left: 2px solid #C4C4C4;
+}
