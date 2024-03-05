@@ -300,6 +300,9 @@ video{
     height:40%;
 }
 
+/* voice recording */
+
+
         /* responsive  */
 /* Styles for screens smaller than 600px */
 @media screen and (max-width:500px){
@@ -369,7 +372,7 @@ video{
     .button{
         position: absolute;
         bottom:0;
-        top:90em;
+        top:92em;
     }
     .front_face{
         position: absolute;
@@ -389,6 +392,10 @@ video{
         top:72em;
         left:55%;
     }
+   
+    
+   
+   
 }
 /* Styles for screens between 500px and 900px */
 @media screen and (min-width:501px) and (max-width:900px) {
@@ -457,6 +464,7 @@ video{
         top:24em;
         
     }
+    
 }
 /* Styles for screens larger than 900px */
 @media screen and (min-width: 901px){
@@ -528,4 +536,6 @@ video{
         width:150px;
         height:150px;
     }
+   
+
 }

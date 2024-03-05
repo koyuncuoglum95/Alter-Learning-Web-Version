@@ -1,4 +1,4 @@
-import React from 'react';
+import  React from 'react';
 import LeftCounter from './LeftCounter';
 import RightCounter from './RightCounter';
 import { Row, Col, Container } from 'reactstrap';

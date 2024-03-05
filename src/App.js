@@ -21,6 +21,7 @@ import Login from './Components/login/login';
 import Signup from './Components/SignUp/SignUp';
 import Faq from './Components/Faq';
 import Manage from './Components/ManageAccount/index'
+import Verification from './Components/login/verification';
 
 class App extends React.Component {
 
@@ -47,6 +48,7 @@ class App extends React.Component {
           <Route path="/faq" element={<Faq />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/login" element={<Login />}></Route>
+          <Route path="/verification" element={<Verification />}></Route>
         </Routes>
         <Footer />
       </Router>

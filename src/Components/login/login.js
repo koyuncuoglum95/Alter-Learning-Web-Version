@@ -11,8 +11,14 @@ const Login = () => {
  
 // Handle form Submit
 const handleLogin = () => {
-  const emailInput = document.getElementById("email").value.trim();
-  const passwordInput = document.getElementById("password").value.trim();
+  const emailInput = email.trim();
+  const passwordInput = password.trim();
+
+  if (emailInput === '' || passwordInput === '') {
+    toast.error("Please fill in all fields");
+    return;
+  }
+
   let loginSuccessful = false;
 
   for (let i = 0; i < localStorage.length; i++) {
@@ -26,10 +32,10 @@ const handleLogin = () => {
   }
 
   if (loginSuccessful) {
-      toast.success("Login successful");
-       navigate("/verification");
+    toast.success("Login successful");
+    navigate("/verification");
   } else {
-      toast.error("Invalid email or password");
+    toast.error("Invalid email or password");
   }
 };
 
