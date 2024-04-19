@@ -43,7 +43,7 @@ const Signup = () => {
 
 	const [isPicturesSaved, setIsPicturesSaved] = useState(false);
 
-    const [postData, setPostData] = useState([]);
+
 
 
 
@@ -330,9 +330,6 @@ const Signup = () => {
 
 			</div>
 
-			<div>
-				{postData}
-			</div>
 		</div>
 	);
 };
